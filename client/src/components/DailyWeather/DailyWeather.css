@@ -1,0 +1,9 @@
+.daily-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 95vw;
+    border-left: 1px dotted white;
+}
+
+

@@ -61,42 +61,49 @@ export const hourlyx = [
 
 export const futurex = [
     {
+        date: 1617796800,
         temp: 2,
         wind: 7,
         icon: '04d',
         weather: 'clear'
     },
-    {
+    {   
+        date: 1617796800,
         temp: 2,
         wind: 7,
         icon: '04d',
         weather: 'clear'
     },
-    {
+    {   
+        date: 1617796800,
         temp: 2,
         wind: 7,
         icon: '04d',
         weather: 'clear'
     },
-    {
+    {   
+        date: 1617796800,
         temp: 2,
         wind: 7,
         icon: '04d',
         weather: 'clear'
     },
-    {
+    {   
+        date: 1617796800,
         temp: 2,
         wind: 7,
         icon: '04d',
         weather: 'clear'
     },
-    {
+    {   
+        date: 1617796800,
         temp: 2,
         wind: 7,
         icon: '04d',
         weather: 'clear'
     },
-    {
+    {   
+        date: 1617796800,
         temp: 2,
         wind: 7,
         icon: '04d',

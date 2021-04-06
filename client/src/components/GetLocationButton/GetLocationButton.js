@@ -2,6 +2,7 @@ import React from 'react'
 import { useGlobalContext } from '../../context'
 import './GetLocationButton.css'
 
+
 const GetLocationButton = () => {
     const { setLatitude, setLongitude } = useGlobalContext()
 
@@ -23,14 +24,13 @@ const GetLocationButton = () => {
             // make better later
             return alert('Please allow us to use your location to access the weather')
         }
-    }
+    }  
    
     return (
-        <div className = 'location-btn'>
-            <input type ='text'></input>
+        <>
             <button className= 'btn' onClick = {handleClick}> Use Location <i className="fas fa-location-arrow"></i></button>
             <p className = 'error'> There Was a problem getting your location, please try again </p>
-        </div>
+        </>
     )
 }
 

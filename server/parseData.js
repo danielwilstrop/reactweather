@@ -31,6 +31,7 @@ const currentData = ({ current }) => {
 const futureData = ({ daily }) => {
     return daily.slice(1).map(day => {
         return {
+            date: day.dt,
             temp: kToCelcius(day.temp.day),
             wind: Math.round(day.wind_speed),
             weather: day.weather[0].main,

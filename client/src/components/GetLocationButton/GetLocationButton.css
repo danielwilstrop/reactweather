@@ -9,8 +9,22 @@
     color: red;
 }
 
-.location-btn {
+.location-form {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
+
+h4 {
+    text-align: center;
+}
+
+.btn {
+    outline: none;
+    border: none;
+    width: 60vw;
+    height: auto;
+    border-radius: 8px;
+}
+
